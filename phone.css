@@ -1,0 +1,38 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+.realnav{
+    overflow: scroll;
+}
+.realnav::-webkit-scrollbar{
+    display: none;
+}
+.quali{
+    margin: 27px 27px;
+    padding: 4px 15px;
+    margin-top: 0%;
+    margin-left: 5%;
+}
+.parent{
+ flex-direction: column;
+}
+.myinfo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    box-shadow: inset 2px 5px 15px #917EA5;
+    width: 275px;
+    position: relative;
+    left: 12%;
+}
+.skilldes{
+    width: 63vw;
+}
+.des{
+    display: grid;
+    grid-template-areas: "div  div"
+                         "div  div";
+}
