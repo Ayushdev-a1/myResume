@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" media="screen and (max-width: 1062px)" href="phone.css">
+  <link rel="stylesheet" media="screen and (max-width: 450px)" href="phone2.css">
+  <link rel="stylesheet" media="screen and (max-width: 850px)" href="phone3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>myResume.com</title>
+</head>
+<body>
+  <div class="navbar">
+    <div class="name">
+      <img  class="logo" src="/img/gog.png" alt="">
+    </div>
+  <div class="nav">
+    <div class="search">
+      <input type="text" placeholder="search" class="fa fa-search">
+      <button><i class="fa fa-search"></i></button>
+    </div>
+    <div class="realnav">
+      <ul>
+        <li><a class="upper" href="#">News</a></li>
+        <li><a class="upper"href="#">Review</a></li>
+        <li><a class="upper"href="#">App</a></li>
+        <li><a class="upper"href="#">Shopping</a></li>
+        <li><a class="upper"href="#">Pricing</a></li>
+        <li><a class="upper"href="#">Projects</a></li>
+        <li><a class="upper"href="#">login</a></li>
+        <li><a class="upper"href="#">CoverLetter</a></li>
+        <li><a class="upper"href="#">Images</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<!-- body struture -->
+<div class="parent">
+  <div class="myinfo">
+    <img src="/img/ayushresume.jpg" alt="">
+    <span>Name:- Ayush Anand <br> Timeline:- 16-oct-2004 - still <br> Place where i born :- Patna(Bihar),India</span>
+  </div>
+<div class="des">
+  <div class="education">
+   <a class="onclick" onclick="myQuali()"><h3 class="link">My Educational Background</h3></a>
+   <span>My_School|My_College|Education|Function</span>
+  </div>
+  <div class="quali">
+    <li><h3>Matriculation</h3><span>School:- Patna st michael's school (2005-2020) <br>Board :- Central Board Of Secondray education
+     <br> Passed by :- 83.4%</span></li>
+    <li><h3>Intermediate</h3> <span> College :- AN college <br>
+      Board:- Bihar School EXamination Board 
+      <br>
+      Passed by :- 73.4%
+    </span></li>
+    <li><h3>Graduation</h3><span>
+      Currrently pursing B-tech from UIET Chandigarh (Panjab university) with Electronics and Communications.
+      <br>But intrested in web devlopment and other tech field . 
+    </span></li>
+    <li>
+    <button class="close" onclick="no()">close</button>
+    </li>
+  </div>
+  <div class="skills">
+    <a class="skill" onclick="skill()"><h3 class="link">My skills</h3>
+    </a>
+    <span>I am fast learner and all the skills which i have , <br> learned from youtube that why i do not any certificate to show <br>but I have project which i made you can access on next section</span>
+  </div>
+  <div class="skilldes">
+    <img src="/img/download (1).png" alt="" class="click">
+    <div class="skill2">
+      <div class="outer">
+        <div class="inner"></div>
+      </div>
+    </div>
+
+    <img src="/img/download (2).png" alt="" class="click">
+    <div class="skill2">
+      <div class="outer">
+        <div class="inner"></div>
+      </div>
+    </div>
+
+    <img src="img/download (3).png" alt="" class="click">
+    <div class="skill2">
+      <div class="outer">
+        <div class="inner"></div>
+      </div>
+    </div>
+    <i class=" posi fa fa-close" onclick="no2()"></i>
+  </div> 
+  <div class="project">
+    <h3 class="link">My project</h3>
+    <a href="http://github.com/Ayushdev-a1">click below to go through my project</a><div>Calculator|website_for_toy_shop|Tic-tac-toe_game|and some assigment</div>
+  </div>
+
+  <div class="experiance">
+    <h3 class="link">My Experieance</h3>
+    <span>Help me to add this page also😊</span>
+  </div>
+  </div>
+</div>
+  <div class="form">
+  <h3>Leave your feedback</h3>
+  <form class="center msg" name="myForm" onsubmit="sendemail(); reset(); return false">
+  <input type="text" name="fname" id="name" placeholder="Full Name" required>
+  <input type="text"  name="fphone" id="phone" placeholder="Enter your number" required>
+  <input type="email" name="fmail" id="mail" placeholder="email" required>
+  <textarea placeholder="enter your feedback" id="feedback"  rows="5" required></textarea>
+  <button id="sumbit">Send</button>
+ </form>
+ </div>
+ <footer>
+ <a href="https://www.instagram.com/___ayush_anand___/"><img src="/img/insta.png" alt="" class="insta"></a>|<a href="https://www.linkedin.com/in/ayush-anand-566a3622b/"><img src="/img/link.png" alt="" class="linkdeen"></a>|&&copy;
+ </footer>
+<script src="port.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="form.js"></script>
+</body>
+</html>
