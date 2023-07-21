@@ -7,7 +7,7 @@
 }
 .parent{
     display: flex;
-    background: url(/img/img_tree.png) no-repeat center;
+    background: url("img/img_tree.png") no-repeat center;
     box-shadow: 0px 0px 55px 0px  rgb(63, 137, 152) inset;
     height: 600px;
     padding: 10px;
@@ -156,7 +156,7 @@ li{
     display: none;
     margin: 34px 34px;
     padding: 34px 34px;
-    background: url(img/download.png) no-repeat center;
+    background: url("img/download.png") no-repeat center;
     border-bottom: 4px solid rgb(188, 204, 240);
     border-right: 4px solid rgb(169, 202, 216);
     box-shadow:10px 10px 14px 0px rgb(63, 137, 152) inset ;
