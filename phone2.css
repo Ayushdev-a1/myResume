@@ -1,8 +1,8 @@
  .search{
         display: flex;
-        width: 145px;
+        width: 122px;
         position: relative;
-        left: -40px;
+        left: -12px;
  }
  .search input { 
     width: 11rem;
@@ -71,12 +71,12 @@
     width: 31px;
 }
 .outer{
-    height: 30px;
-    width: 30px;
+    height: 5px;
+    width: 5px;
 }
 .inner{
-    height: 32px;
-    width: 20px;
+    height: 5px;
+    width: 5px;
 }
 .skilldes img{
     width: 23%;
